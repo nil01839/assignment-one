@@ -3,8 +3,13 @@
     margin: 0;
 }
 
+p {
+    font-size: 20px;
+
+}
+
 .top-banner {
-    margin-bottom: 100px;
+    margin-bottom: 150px;
 }
 
 .top-banner-contents {
@@ -16,12 +21,11 @@
 }
 
 .top-banner-contents h1 {
-    font-size: 60px;
+    font-size: 55px;
+
 }
 
-.top-banner-contents p {
-    font-size: 20px;
-}
+
 
 .link-button {
     text-decoration: none;
@@ -29,7 +33,7 @@
     padding: 15px 30px;
     border-radius: 5px;
     color: white;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 700;
 }
 
@@ -42,7 +46,7 @@
 }
 
 .donate-area-content p {
-    font-size: 20px;
+
     color: grey;
 }
 
@@ -84,4 +88,93 @@
     border-top: 0px;
     border-left: 0px;
     border-right: 0px;
+}
+
+.donate-area {
+    margin-bottom: 150px;
+}
+
+.donation-plan-contents {
+    text-align: center;
+}
+
+.donation-plan-contents h2 {
+    font-size: 50px;
+}
+
+.donation-plan-contents p {
+
+    color: gray;
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.donation-sectors {
+    display: flex;
+    margin-top: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.sectors {
+    margin-left: 20px;
+    padding: 100px 20px;
+    border-radius: 5px;
+    background-color: rgb(222, 210, 210);
+
+}
+
+.food {
+    background-color: rgb(235, 242, 245);
+}
+
+.shelter {
+    background-color: rgb(249, 232, 235);
+}
+
+.education {
+    background-color: rgb(241, 225, 195);
+}
+
+.updates {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.updates form {
+    background-color: rgb(226, 202, 158);
+    padding: 50px 30px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.updates p {
+    color: gray;
+}
+
+.email {
+    padding: 15px 100px;
+}
+
+.button {
+    margin: 0;
+    border: 0;
+}
+
+footer {
+    background-color: black;
+    padding: 50px;
+    margin: 0;
+    text-align: center;
+}
+
+footer p {
+    color: gray;
+}
+
+footer h3 {
+    color: orange;
+    font-size: 50px;
+
 }
