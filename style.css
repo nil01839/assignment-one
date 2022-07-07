@@ -1,4 +1,4 @@
-.body {
+body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
@@ -9,12 +9,16 @@ p {
 }
 
 .top-banner {
+    background-image: url(images/donation4.jpg);
+    background-repeat: no-repeat;
     margin-bottom: 150px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background-size: cover;
 }
 
 .top-banner-contents {
-    background-image: url(images/donation3.jpg);
-    background-repeat: no-repeat;
+
     text-align: center;
     color: white;
 
@@ -66,7 +70,8 @@ p {
 
 .selected {
     border: 3px solid rgb(250, 95, 95);
-    color: rgbrgb(250, 95, 95);
+    color: rgb(250, 95, 95);
+    background-color: rgb(240, 212, 212);
 }
 
 .donation-amounts-taka h3 {
@@ -117,6 +122,15 @@ p {
     margin-right: 10%;
 }
 
+.donation-sectors h3 {
+    font-size: 24px;
+}
+
+.donation-sectors p {
+    color: gray;
+    line-height: 1.2;
+}
+
 .sectors {
     margin-left: 20px;
     padding: 100px 20px;
@@ -140,13 +154,18 @@ p {
 .updates {
     text-align: center;
     margin-top: 25px;
+    margin-bottom: 100px;
+
 }
 
 .updates form {
-    background-color: rgb(226, 202, 158);
-    padding: 50px 30px;
+    background-color: rgb(241, 228, 205);
+    padding: 80px 30px;
     margin-left: 20%;
     margin-right: 20%;
+    display: flex;
+    justify-content: center;
+
 }
 
 .updates p {
@@ -157,14 +176,15 @@ p {
     padding: 15px 100px;
 }
 
-.button {
+.button,
+.email {
     margin: 0;
     border: 0;
 }
 
 footer {
     background-color: black;
-    padding: 50px;
+    padding: 30px;
     margin: 0;
     text-align: center;
 }
@@ -175,6 +195,6 @@ footer p {
 
 footer h3 {
     color: orange;
-    font-size: 50px;
+    font-size: 40px;
 
 }
